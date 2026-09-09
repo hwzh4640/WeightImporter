@@ -83,3 +83,7 @@ cp sample.csv "$(xcrun simctl get_app_container "iPhone 17 Pro" $APP_BUNDLE_ID d
 
 [PLAN.md](PLAN.md) is the original design document, with a record of where the
 implementation diverged from it and which bugs verification turned up.
+
+## License
+
+[MIT](LICENSE)
