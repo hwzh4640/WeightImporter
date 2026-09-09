@@ -1,0 +1,21 @@
+# Local signing config — contains your Team ID and bundle identifier
+Config.xcconfig
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Signing material — never commit these
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+
+# Real exports. Only the synthetic sample*.csv fixtures belong in git.
+Weight.csv
+weight.csv
+
+.DS_Store

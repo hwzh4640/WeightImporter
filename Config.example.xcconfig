@@ -1,0 +1,14 @@
+// Copy this file to Config.xcconfig and fill in your own values.
+//
+//   cp Config.example.xcconfig Config.xcconfig
+//
+// APP_DEVELOPMENT_TEAM is your 10-character Apple Developer Team ID. Find it in
+// Xcode → Settings → Accounts → your Apple ID → Manage Certificates, or run:
+//   security find-identity -v -p codesigning
+// and read the OU field of the certificate's subject. A free "Personal Team"
+// works fine — HealthKit is allowed on it.
+//
+// APP_BUNDLE_ID must be globally unique. Use your own reverse-DNS prefix.
+
+APP_DEVELOPMENT_TEAM =
+APP_BUNDLE_ID = com.example.WeightImporter
